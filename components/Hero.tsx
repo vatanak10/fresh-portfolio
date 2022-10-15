@@ -24,19 +24,19 @@ export function Hero() {
             />
           </div>
         </div>
-        <div class="right-header">
-          <h1 class="name">
-            Hi, I'm <span>Vatanak</span>
+        <div class="right-header flex flex-col justify-center pr-60">
+          <h1 class="name text-5xl">
+            Hi, I'm <span class="text-indigo-700">Vatanak</span>
             A Web Developer
           </h1>
-          <p>
+          <p class="my-6 leading-8">
             I'm a web developer based in the city of Phnom Penh, Cambodia. I'm a
             passionate about creating beautiful and functional websites.
           </p>
-          <div class="btn-container">
+          <div class="btn-container flex self-start">
             <a
               href="/doc/Serey_Vatanak_KOEURN_CV.pdf"
-              class="main-btn"
+              class="main-btn rounded-3xl "
               download
             >
               <span class="btn-text">Download CV</span>
