@@ -7,9 +7,8 @@ export function Hero() {
       <div class="header-content grid grid-cols-2 min-h-screen">
         <div class="left-header flex items-center relative">
           <div
-            class="h-shape h-full w-4/6 absolute left-0 top-0"
+            class="h-shape h-full w-4/6 absolute left-0 top-0 bg-primary"
             style={{
-              backgroundColor: "#0b486b",
               clipPath: "polygon(0 0, 46% 0, 79% 100%, 0 100%)",
               zIndex: -1,
             }}
@@ -27,8 +26,7 @@ export function Hero() {
         </div>
         <div class="right-header flex flex-col justify-center pr-60">
           <h1 class="name text-5xl">
-            Hello, I'm <span style={{ color: "#0b486b" }}>Vatanak</span>{" "}
-            A Web Developer
+            Hello, I'm <span class="text-primary">Vatanak</span> A Web Developer
           </h1>
           <p class="my-6 leading-8">
             I'm a web developer based in the city of Phnom Penh, Cambodia. I'm a
@@ -37,15 +35,12 @@ export function Hero() {
           <div class="btn-container flex self-start">
             <a
               href="/doc/Serey_Vatanak_KOEURN_CV.pdf"
-              class="main-btn rounded-3xl font-semibold relative border-1 border-solid flex self-start items-center overflow-hidden"
-              style={{ color: "inherit", borderColor: "#0b486b" }}
+              class="main-btn rounded-3xl font-semibold relative border-1 border-solid flex self-start items-center overflow-hidden border-primary"
+              style={{ color: "inherit" }}
               download
             >
               <span class="btn-text px-8">Download CV</span>
-              <span
-                class="btn-icon flex items-center justify-center rounded-1/2 p-4"
-                style={{ backgroundColor: "#0b486b" }}
-              >
+              <span class="btn-icon flex items-center justify-center rounded-1/2 p-4 bg-primary">
                 <i class="fas fa-download text-white"></i>
               </span>
             </a>
