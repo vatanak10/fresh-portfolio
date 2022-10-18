@@ -5,8 +5,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#0b486b",
-        secondary: "#106799",
+        "primary": "#0b486b",
+        "secondary": "#106799",
+        "grey-0": "#2a2e35",
+        "grey-1": "#454e56",
+        "grey-2": "#6c7983",
+        "grey-3": "#b2becd",
+        "grey-4": "#dbe1e8",
+        "grey-5": "#f8f8f8",
+        "grey-6": "#12181b",
         transparent: "transparent",
       },
     },
