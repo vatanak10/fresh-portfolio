@@ -18,6 +18,9 @@ export default {
         "grey-6": "#12181b",
         transparent: "transparent",
       },
+      screens: {
+        "mb": { "max": "600px" }, // mb for mobile
+      },
       fontFamily: {
         "sans": ['"Ubuntu", sans-serif'],
       },

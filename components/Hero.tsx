@@ -4,18 +4,18 @@ export function Hero() {
       class="min-h-screen w-full"
       id="hero"
     >
-      <div class="grid grid-cols-2 min-h-screen">
+      <div class="grid grid-cols-2 min-h-screen mb:(grid-cols-1 pb-24)">
         <div class="flex items-center relative">
           <div
-            class="h-full w-4/6 absolute left-0 top-0 bg-primary"
+            class="h-full w-4/6 absolute left-0 top-0 bg-primary mb:hidden"
             style={{
               clipPath: "polygon(0 0, 46% 0, 79% 100%, 0 100%)",
               zIndex: -1,
             }}
           />
           <div
-            class="rounded-2xl ml-16 bg-gray-800 transition-all duration-300 ease-in-out"
-            style={{ height: "90%", width: "70%" }}
+            class="rounded-2xl ml-16 bg-gray-800 transition-all duration-300 ease-in-out w-3/4 mb:(my-0 mx-auto w-4/5)"
+            style={{ height: "90%" }}
           >
             <img
               src="/profile.webp"
@@ -24,11 +24,11 @@ export function Hero() {
             />
           </div>
         </div>
-        <div class="flex flex-col justify-center pr-60">
-          <h1 class="text-5xl">
+        <div class="flex flex-col justify-center pr-56 mb:(pt-24 px-4 row-span-full w-4/5 my-0 mx-auto)">
+          <h1 class="text-5xl font-semibold mb:(text-3xl)">
             Hello, I'm <span class="text-primary">Vatanak</span> A Web Developer
           </h1>
-          <p class="my-6 leading-8">
+          <p class="my-6 leading-8 mb:(text-justify my-4)">
             I'm a web developer based in the city of Phnom Penh, Cambodia. I'm a
             passionate about creating beautiful and functional websites.
           </p>
